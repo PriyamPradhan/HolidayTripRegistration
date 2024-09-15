@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Ninjas - Register</title>
+</head>
+<body>
+    
+    <header>
+        <img src="../Multimedia/new_cn_logo.svg" type="image/svg+xml" width="120px" height="100%" alt="CN Logo">
+    </header>
+    <main>
+        <h3>Create an Account</h3>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" required name="fullname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required name="email"><br><br>
+            <label for="uname">Username:</label>
+            <input type="uname" id="uname" required name="uname"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required name="password"><br><br>
+            <label for="utype">User Type:</label>
+            <select name="usertype" id="usertype" required>
+                <option value="NA" selected disabled>Select user type</option>
+                <option value="individual">Individual</option>
+                <option value="organisation">Organisation</option>
+                <option value="smallteam">Small Team</option>
+            </select>
+            <br><br>
+            <label for="course">Select Course:</label>
+            <select name="course" id="course">
+                <option value="webDevelopment">Course 1 - Web Development</option>
+                <option value="dataScience">Course 2 - Data Science</option>
+                <option value="digitalMarketing">Course 3 - Digital Marketing</option>
+                <option value="androidDevelopment">Course 4 - Android Development</option>
+            </select>
+            <br><br>
+            <button type="submit">Register</button>
+        </fieldset>
+    </main>
+
+</body>
+</html>
