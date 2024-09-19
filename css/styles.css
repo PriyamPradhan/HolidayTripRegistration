@@ -16,4 +16,13 @@ li{
     text-shadow: 2px 2px 11px #000000;
     font-family: 'Times New Roman', Times, serif;
     background-color: hsla(180, 100%, 50%, 0.5);
+    
+}
+
+a {
+    cursor: pointer;
+}
+
+#top:hover {
+    filter: brightness(30%);
 }
